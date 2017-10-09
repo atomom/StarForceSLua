@@ -1,0 +1,16 @@
+return {
+	[10000] = {Id = 10000, Name = "玩家战机", 		AssetName ="PlayerShip"},
+	[10001] = {Id = 10001, Name = "敌人战机", 		AssetName ="EnemyShip"},
+	[20000] = {Id = 20000, Name = "玩家推进器", 	AssetName ="PlayerEngine"},
+	[20001] = {Id = 20001, Name = "敌人推进器", 	AssetName ="EnemyEngine"},
+	[30000] = {Id = 30000, Name = "默认武器", 		AssetName ="DefaultWeapon"},
+	[40000] = {Id = 40000, Name = "默认装甲", 		AssetName ="DefaultArmor"},
+	[50000] = {Id = 50000, Name = "玩家子弹", 		AssetName ="PlayerBolt"},
+	[50001] = {Id = 50001, Name = "敌人子弹", 		AssetName ="EnemyBolt"},
+	[60000] = {Id = 60000, Name = "小行星", 		AssetName ="Asteroid01"},
+	[60001] = {Id = 60001, Name = "小行星", 		AssetName ="Asteroid02"},
+	[60002] = {Id = 60002, Name = "小行星", 		AssetName ="Asteroid03"},
+	[70000] = {Id = 70000, Name = "玩家死亡特效", 	AssetName ="PlayerExplosion"},
+	[70001] = {Id = 70001, Name = "敌人死亡特效", 	AssetName ="EnemyExplosion"},
+	[70002] = {Id = 70002, Name = "小行星死亡特效", AssetName ="AsteroidExplosion"},
+}

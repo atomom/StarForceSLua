@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743737da729d1408d9fe2900ffb58ae9, type: 3}
+  m_Name: XcodeProjectSetting
+  m_EditorClassIdentifier: 
+  CopyDirectoryPath: Assets/Editor/Xcode
+  URLIdentifier: weixin
+  URLSchemeList:
+  - wx7b458455fef705e2
+  - hkrlplat
+  FrameworkList:
+  - Social.framework
+  - SystemConfiguration.framework
+  - CoreTelephony.framework
+  - StoreKit.framework
+  LinkerFlagArray:
+  - -Objc
+  - -force_load
+  - $(PROJECT_DIR)/Wechat/libWeChatSDK.a
+  - -ObjC
+  FrameworkSearchPathArray: []
+  LibraryList:
+  - libz.tbd
+  - libc++.tbd
+  - libsqlite3.0.tbd
+  CompilerFlagsSetList: []
+  ApplicationQueriesSchemes:
+  - weixin
+  - wechat
+  EnableBitCode: 0
+  EnableATS: 0
+  EnableStatusBar: 0
+  NeedToDeleteLaunchiImagesKey: 1

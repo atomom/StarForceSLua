@@ -1,0 +1,3 @@
+return {
+	Survival = 1
+}

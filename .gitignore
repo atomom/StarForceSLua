@@ -32,3 +32,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/GameFrameworkExtensions/Lua/Slua/LuaObject/Custom*
+Assets/GameFrameworkExtensions/Lua/Slua/LuaObject/Unity*
